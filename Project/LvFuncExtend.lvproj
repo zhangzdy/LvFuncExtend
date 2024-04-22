@@ -16,6 +16,9 @@
 		<Item Name="FileFunc" Type="Folder" URL="../../FileFunc">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="InvokeSYSFunc" Type="Folder" URL="../../InvokeSYSFunc">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="StringFunc" Type="Folder" URL="../../StringFunc">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -28,6 +31,9 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+			</Item>
+			<Item Name="user32.dll" Type="Document" URL="user32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
