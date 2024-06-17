@@ -25,6 +25,9 @@
 		<Item Name="InvokeSYSFunc" Type="Folder" URL="../../InvokeSYSFunc">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="SetVIInformation" Type="Folder" URL="../../SetVIInformation">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="StringFunc" Type="Folder" URL="../../StringFunc">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -42,6 +45,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="Gdi32.dll" Type="Document" URL="Gdi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
